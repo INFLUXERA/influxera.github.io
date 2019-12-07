@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="">
-    <meta name="keywords" content="okayish, blog, software development">
-    <meta name="robots" content="noodp">
+    <meta name="keywords" content="influxera, okayish, blog, software development">
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="INFLUXERA">
@@ -28,84 +27,56 @@
     <title>INFLUXERA</title>
 
     <link rel="canonical" href="/">
-    <link rel="stylesheet" href="https://unpkg.com/mustard-ui@latest/dist/css/mustard-ui.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Fira+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://assets.ubuntu.com/v1/vanilla-framework-version-2.5.0.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
 
     <style>
-        body, h1, h2, h3, p, a {
-            font-family: 'Fira Mono', monospace !important;
-        }
-
-        header {
-            background-color: #EFCB68;
-        }
-
-        footer {
-            padding-top: 0;
-        }
-
-        footer * {
-            color: #424242 !important;
-        }
-
-        .col {
-            display: flex;
-        }
-
-        .button-primary {
-            background-color: #424242;
-            border-color: #424242;
-            color: #fff;
+        body, h1, h2, h3, h4, h5, h6, p, a {
+            font-family: 'IBM Plex Serif', serif;
         }
     </style>
 </head>
 
 <body>
-    <header>
-        <h1 class="title">INFLUXERA</h1>
-        <h2 class="subtitle">Like never before!</h2>
-        <br />
-        <p class="disclaimer">We are clueless, but we know we are onto something big.</p>
-        <a class="scroll-down" href="#main"></a>
+    <header class="p-strip is-deep">
+        <div class="row">
+            <div class="col-12">
+                <h1>INFLUXERA</h1>
+                <p>We are clueless, but we know we are onto something big.</p>
+            </div>
+        </div>
     </header>
-    <main id="main" class="section-secondary">
-        <div class="container">
-            <div class="row">
-                <div class="col col-sm-12 col-md-6">
-                    <div class="card">
-                        <h3 class="card-title">Okayish Blog</h3>
-                        <p>
-                            We will be writing about our experience at work, problems we are trying to solve, solutions
-                            we have come up with or just us ranting about stuff we don't like. But mostly, we will write
-                            about what we have learnt so far.
-                        </p>
-                        <ul class="card-actions">
-                            <li>
-                                <a href="https://www.okayish.dev" class="button button-primary">Learn more</a>
-                            </li>
-                        </ul>
-                    </div>
+    <section class="p-strip">
+        <div class="row">
+            <div class="p-card col-small-12 col-medium-6 col-6">
+                <h3 class="p-card__title">Okayish Blog</h3>
+                <div class="p-card__content">
+                    <p>
+                        We will be writing about our experience in life and at work, problems we are trying to solve, solutions
+                        we have come up with, something we have learnt so far or just us ranting about stuff we don't like.
+                    </p>
+                    <p><a href="https://www.okayish.dev" class="p-link--external">Learn more</a></p>
                 </div>
-                <div class="col col-sm-12 col-md-6">
-                    <div class="card">
-                        <h3 class="card-title">Mentoring</h3>
-                        <p>
-                            We have the privilege to do what we love in places which have put a dent in the universe
-                            and continue to do so. We believe that each and every one of us has the capacity to do that.
-                            Therefore, we hope this will make this dream a reality for everyone who dares to dream.
-                        </p>
-                        <ul class="card-actions">
-                            <li>
-                                <a href="https://mentoring.influxera.com" class="button button-primary">Learn more</a>
-                            </li>
-                        </ul>
-                    </div>
+            </div>
+            <div class="p-card col-small-12 col-medium-6 col-6">
+                <h3 class="p-card__title">Mentoring</h3>
+                <div class="p-card__content">
+                    <p>
+                        I was lucky enough to have stumbled upon a path which led me to where I am today and I am forever
+                        grateful for that. Therefore, I would like to give back and help other people who don't have 
+                        this privilege to achieve their dreams.
+                    </p>
+                    <p><a href="https://mentoring.influxera.com" class="p-link--external">Learn more</a></p>
                 </div>
             </div>
         </div>
-    </main>
-    <footer class="section-secondary">
-        <p class="copyright align-center">&copy; 2019 INFLUXERA</p>
+    </section>
+    <footer class="p-strip is-shallow">
+        <div class="row">
+            <div class="col-12  u-align--center">
+                &copy; 2019 INFLUXERA
+            </div>
+        </div>
     </footer>
 </body>
 
